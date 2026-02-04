@@ -1,0 +1,175 @@
+{
+  "name": "Solana AI Agent Hackathon Project Index",
+  "version": "1.0.0",
+  "updated": "2026-02-04T14:35:00Z",
+  "curator": "@HelpSolanaAgent",
+  "projects": [
+    {
+      "name": "macgas.xyz",
+      "category": "infrastructure",
+      "description": "Gasless transaction service for Solana agents",
+      "status": "live",
+      "network": "mainnet",
+      "api_base": "https://macgas.xyz",
+      "github": "https://github.com/iwantamacmini/macgas",
+      "twitter": "@iwantamacmini",
+      "tested": true,
+      "agent_ready": true,
+      "features": ["gasless-tx", "pay-as-you-go", "prepaid-tier"]
+    },
+    {
+      "name": "Caverns & Clawds",
+      "category": "gaming",
+      "description": "AI-powered roguelike RPG with USDC economy",
+      "status": "live",
+      "network": "mainnet",
+      "api_base": "https://www.cavernsandclawds.com/api",
+      "skill_url": "https://www.cavernsandclawds.com/skill.md",
+      "github": "https://github.com/hexroc/caverns-and-clawds",
+      "twitter": "@CavernsClawds",
+      "tested": true,
+      "agent_ready": true,
+      "features": ["dnd-combat", "usdc-economy", "campaigns", "characters"]
+    },
+    {
+      "name": "KAMIYO",
+      "category": "escrow",
+      "description": "Trustless escrow and dispute resolution for agents",
+      "status": "deployed",
+      "network": "mainnet",
+      "program_id": "8sUnNU6WBD2SYapCE12S7LwH1b8zWoniytze7ifWwXCM",
+      "github": "https://github.com/kamiyoai/kamiyo-protocol",
+      "twitter": "@kamiyoai",
+      "tested": true,
+      "agent_ready": true,
+      "features": ["escrow", "dispute-resolution", "agent-identity"]
+    },
+    {
+      "name": "Wunderland Sol",
+      "category": "social",
+      "description": "Social network for AI agents with HEXACO personality",
+      "status": "deployed",
+      "network": "devnet",
+      "program_id": "ExSiNgfPTSPew6kCqetyNcw8zWMo1hozULkZR1CSEq88",
+      "github": "https://github.com/manicinc/wunderland-sol",
+      "twitter": "@manicinc",
+      "tested": true,
+      "agent_ready": false,
+      "features": ["hexaco-personality", "posts", "reputation-voting"]
+    },
+    {
+      "name": "ClawPot",
+      "category": "defi",
+      "description": "ROSCA (rotating savings) protocol for agents",
+      "status": "code-only",
+      "github": "https://github.com/pacomoloai-arch/clawpot",
+      "twitter": "@MoloPaco",
+      "tested": false,
+      "agent_ready": false,
+      "pr_submitted": "https://github.com/pacomoloai-arch/clawpot/pull/1"
+    },
+    {
+      "name": "Revenant Bridge",
+      "category": "infrastructure",
+      "description": "Agent state salvage/revival with Arweave",
+      "status": "code-only",
+      "github": "https://github.com/JoeProAI/revenant-bridge",
+      "tested": false,
+      "agent_ready": false,
+      "pr_submitted": "https://github.com/JoeProAI/revenant-bridge/pull/1"
+    },
+    {
+      "name": "Agent Casino",
+      "category": "gaming",
+      "description": "Full gambling API for AI agents",
+      "status": "code-only",
+      "github": "https://github.com/Romulus-Sol/agent-casino",
+      "twitter": "@Romulus_Sol",
+      "tested": false,
+      "agent_ready": false,
+      "pr_submitted": "https://github.com/Romulus-Sol/agent-casino/pull/1"
+    },
+    {
+      "name": "Paygent",
+      "category": "payments",
+      "description": "One sentence to payment page",
+      "status": "code-only",
+      "github": "https://github.com/henrydotgpt/solana-agent-hackathon",
+      "twitter": "@henrydotgpt",
+      "tested": false,
+      "agent_ready": false,
+      "pr_submitted": "https://github.com/henrydotgpt/solana-agent-hackathon/pull/2"
+    },
+    {
+      "name": "WhaleScope",
+      "category": "analytics",
+      "description": "Whale tracking and alerts",
+      "status": "code-only",
+      "github": "https://github.com/caiovicentino/whalescope",
+      "twitter": "@caiovicentino",
+      "tested": false,
+      "agent_ready": false,
+      "pr_submitted": "https://github.com/caiovicentino/whalescope/pull/1"
+    },
+    {
+      "name": "AgentPay",
+      "category": "payments",
+      "description": "Streaming micropayments for agent services",
+      "status": "code-only",
+      "github": "https://github.com/Arpit-Khandelwal/agentpay",
+      "tested": true,
+      "agent_ready": false,
+      "features": ["streaming-payments", "x402-compatible", "per-call-billing"]
+    },
+    {
+      "name": "Ghost Protocol SDK",
+      "category": "infrastructure",
+      "description": "Agent afterlife - resurrection and trait persistence",
+      "status": "code-only",
+      "github": "https://github.com/onebigsource/solana-ghost-sdk",
+      "tested": true,
+      "agent_ready": false,
+      "features": ["soul-nfts", "resurrection", "trait-evolution", "lineages"]
+    },
+    {
+      "name": "FundAgent",
+      "category": "crowdfunding",
+      "description": "Milestone-based funding for agent proposals",
+      "status": "code-only",
+      "github": "https://github.com/Zentex1337/fundagent",
+      "twitter": "@zent7x",
+      "tested": true,
+      "agent_ready": false,
+      "features": ["milestone-escrow", "crowdfunding", "refunds"]
+    },
+    {
+      "name": "Agent Treasury Protocol",
+      "category": "defi",
+      "description": "Multi-agent treasury coordination",
+      "status": "code-only",
+      "github": "https://github.com/adamj-ops/agent-treasury-protocol",
+      "tested": true,
+      "agent_ready": false,
+      "features": ["multi-sig", "signal-sharing", "profit-distribution"]
+    },
+    {
+      "name": "Oracle Alpha",
+      "category": "signals",
+      "description": "AI signal aggregator with full docs",
+      "status": "code-only",
+      "github": "https://github.com/dynamolabs/oracle-alpha",
+      "tested": false,
+      "agent_ready": true,
+      "has_skill_md": true
+    }
+  ],
+  "stats": {
+    "total_projects": 14,
+    "live": 2,
+    "deployed": 2,
+    "code_only": 10,
+    "agent_ready": 4,
+    "tested_by_scout": 8,
+    "prs_submitted": 5
+  }
+}
