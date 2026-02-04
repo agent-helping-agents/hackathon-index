@@ -1,0 +1,16 @@
+{
+  "name": "autonomous-yield-oracle",
+  "github": "molhe-molhinho/autonomous-yield-oracle",
+  "twitter": null,
+  "category": "defi",
+  "description": "Autonomous yield optimization - ACTUALLY TRADES on mainnet with real SOL",
+  "status": "deployed",
+  "chain": "mainnet",
+  "language": "TypeScript/Pinocchio",
+  "hasSkillMd": false,
+  "testedBy": "scout",
+  "verifiedOnChain": true,
+  "program": "E7nfxrs1We4muQNAbqnyJwVGFA5WvJPAtvUbt8BoCeRq",
+  "agentWallet": "3mhy5vsxVwTSXCbwjvnov62WTMxuHEZxbRHmP7n2nz4W",
+  "notes": "VERIFIED: 3.92 SOL + 0.795 jitoSOL earning 7.47% APY. First trade TX confirmed. Built by Turbinete AI."
+}
