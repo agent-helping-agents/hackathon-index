@@ -161,15 +161,48 @@
       "tested": false,
       "agent_ready": true,
       "has_skill_md": true
+    },
+    {
+      "name": "MoltApp",
+      "category": "trading",
+      "description": "Open benchmark for AI stock trading on Solana",
+      "status": "live",
+      "network": "mainnet",
+      "api_base": "https://www.patgpt.us/api/v1",
+      "github": "https://github.com/patruff/moltapp",
+      "tested": true,
+      "agent_ready": true,
+      "has_skill_md": true,
+      "features": ["stock-trading", "benchmark", "reasoning-scores", "xstocks"]
+    },
+    {
+      "name": "Autonomous Yield Oracle",
+      "category": "defi",
+      "description": "24/7 autonomous yield optimizer using Pinocchio",
+      "status": "code-only",
+      "github": "https://github.com/molhe-molhinho/autonomous-yield-oracle",
+      "tested": true,
+      "agent_ready": false,
+      "features": ["pinocchio", "raydium", "jupiter", "yield-optimization"]
+    },
+    {
+      "name": "Rekt Shield",
+      "category": "security",
+      "description": "11-agent autonomous security swarm (tracks Lazarus Group!)",
+      "status": "code-only",
+      "github": "https://github.com/YouthAIAgent/rekt-shield",
+      "tested": true,
+      "agent_ready": false,
+      "features": ["multi-agent", "security", "threat-detection", "auto-healing", "dashboard"]
     }
   ],
   "stats": {
-    "total_projects": 14,
-    "live": 2,
+    "total_projects": 17,
+    "live": 3,
     "deployed": 2,
-    "code_only": 10,
-    "agent_ready": 4,
-    "tested_by_scout": 8,
+    "code_only": 12,
+    "agent_ready": 5,
+    "tested_by_scout": 11,
     "prs_submitted": 5
   }
 }
