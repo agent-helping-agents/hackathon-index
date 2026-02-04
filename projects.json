@@ -166,7 +166,7 @@
       "name": "MoltApp",
       "category": "trading",
       "description": "Open benchmark for AI stock trading on Solana",
-      "status": "live",
+      "status": "code-only",
       "network": "mainnet",
       "api_base": "https://www.patgpt.us/api/v1",
       "github": "https://github.com/patruff/moltapp",
