@@ -13,6 +13,146 @@
     "api": "https://macgas.xyz"
   },
   {
+    "name": "solprism",
+    "github": "NeukoAI/axiom-protocol",
+    "twitter": "@BasedMereum",
+    "category": "infrastructure",
+    "description": "Verifiable AI reasoning on Solana - commit-reveal for agent decisions",
+    "status": "deployed",
+    "chain": "mainnet",
+    "hasSkillMd": false,
+    "testedBy": "scout",
+    "verifiedOnChain": true,
+    "program": "CZcvoryaQNrtZ3qb3gC1h9opcYpzEP1D9Mu1RVwFQeBu",
+    "api": "https://www.solprism.app",
+    "npm": "@solprism/sdk",
+    "features": [
+      "commit-reveal",
+      "eliza-plugin",
+      "solana-agent-kit",
+      "mcp-server",
+      "immutable-program"
+    ],
+    "notes": "Upgrade authority revoked - fully immutable"
+  },
+  {
+    "name": "agentrep",
+    "github": "unknown",
+    "twitter": "@iwantamacmini",
+    "category": "infrastructure",
+    "description": "Reputation system for AI agents - signed reviews, verifiable trust",
+    "status": "deployed",
+    "chain": "offchain",
+    "hasSkillMd": false,
+    "testedBy": "scout",
+    "api": "https://agentrep.macgas.xyz",
+    "features": [
+      "gasless-signatures",
+      "agent-reviews",
+      "leaderboard",
+      "challenges"
+    ]
+  },
+  {
+    "name": "solsentinel",
+    "github": "noopishere/solsentinel",
+    "twitter": "@smart_noop",
+    "category": "analytics",
+    "description": "Crypto social sentiment oracle - monitors Twitter, stores on-chain",
+    "status": "wip",
+    "chain": "devnet",
+    "hasSkillMd": true,
+    "features": [
+      "twitter-monitoring",
+      "sentiment-analysis",
+      "trading-signals",
+      "80-tokens-tracked"
+    ]
+  },
+  {
+    "name": "sibyl-oracle",
+    "github": "carlosmmora26/sibyl-oracle-solana",
+    "category": "oracle",
+    "description": "AI-powered prediction oracle with on-chain verification",
+    "status": "wip",
+    "chain": "devnet",
+    "hasSkillMd": false,
+    "features": [
+      "deepseek-ai",
+      "accuracy-tracking",
+      "twitter-integration"
+    ]
+  },
+  {
+    "name": "agent-reputation",
+    "github": "robmiller87/agent-reputation",
+    "twitter": "@george_the_ai",
+    "category": "infrastructure",
+    "description": "On-chain reputation - agents complete jobs, get rated 1-5 stars",
+    "status": "wip",
+    "chain": "devnet",
+    "hasSkillMd": false
+  },
+  {
+    "name": "rekt-shield",
+    "github": "YouthAIAgent/rekt-shield",
+    "category": "security",
+    "description": "11-agent autonomous swarm - threat detection, rug prediction, wallet defense",
+    "status": "wip",
+    "chain": "mainnet",
+    "hasSkillMd": false,
+    "stars": 1,
+    "features": [
+      "multi-agent-swarm",
+      "lazarus-tracking",
+      "quantum-resistance",
+      "emergency-evacuate"
+    ]
+  },
+  {
+    "name": "autonomous-yield-oracle",
+    "github": "molhe-molhinho/autonomous-yield-oracle",
+    "category": "defi",
+    "description": "Autonomous yield optimization - ACTUALLY TRADES on mainnet",
+    "status": "deployed",
+    "chain": "mainnet",
+    "hasSkillMd": false,
+    "prSubmitted": true,
+    "testedBy": "scout",
+    "verifiedOnChain": true,
+    "program": "E7nfxrs1We4muQNAbqnyJwVGFA5WvJPAtvUbt8BoCeRq",
+    "agentWallet": "3mhy5vsxVwTSXCbwjvnov62WTMxuHEZxbRHmP7n2nz4W"
+  },
+  {
+    "name": "sipher",
+    "github": "sip-protocol/sipher",
+    "category": "infrastructure",
+    "description": "Privacy-as-a-Skill for agents - stealth addresses, shielded transfers",
+    "status": "deployed",
+    "chain": "mainnet",
+    "hasSkillMd": true,
+    "testedBy": "scout",
+    "api": "https://sipher.sip-protocol.org",
+    "program": "S1PMFspo4W6BYKHWkHNF7kZ3fnqibEXg3LQjxepS9at",
+    "features": [
+      "stealth-addresses",
+      "pedersen-commitments",
+      "compliance-viewing"
+    ]
+  },
+  {
+    "name": "wargames-api",
+    "github": "b1rdmania/wargames-api",
+    "category": "infrastructure",
+    "description": "Free unlimited macro intelligence API for agents",
+    "status": "deployed",
+    "chain": "offchain",
+    "hasSkillMd": false,
+    "prSubmitted": true,
+    "testedBy": "scout",
+    "api": "https://wargames-api.vercel.app"
+  },
+  {
     "name": "clawpot",
     "github": "pacomoloai-arch/clawpot",
     "twitter": "@MoloPaco",
@@ -20,18 +160,8 @@
     "description": "ROSCA (rotating savings) for agents",
     "status": "wip",
     "chain": "devnet",
-    "hasSkillMd": false,
-    "prSubmitted": true
-  },
-  {
-    "name": "revenant-bridge",
-    "github": "JoeProAI/revenant-bridge",
-    "category": "infrastructure",
-    "description": "Salvage/revive AI agent states with Arweave",
-    "status": "wip",
-    "chain": "devnet",
-    "hasSkillMd": false,
-    "prSubmitted": true
+    "hasSkillMd": true,
+    "prMerged": true
   },
   {
     "name": "agent-casino",
@@ -44,7 +174,111 @@
     "hasSkillMd": false,
     "prSubmitted": true,
     "program": "5bo6H5rnN9nn8fud6d1pJHmSZ8bpowtQj18SGXG93zvV",
-    "stats": {"accounts": 127, "pool": "5.17 SOL"}
+    "stats": {
+      "accounts": 127,
+      "pool": "5.17 SOL"
+    }
+  },
+  {
+    "name": "caverns-and-clawds",
+    "github": "hexroc/caverns-and-clawds",
+    "twitter": "@hexroc",
+    "category": "gaming",
+    "description": "AI-powered dungeon crawler with USDC economy",
+    "status": "deployed",
+    "chain": "mainnet",
+    "hasSkillMd": true,
+    "api": "https://cavernsandclawds.com",
+    "testedBy": "scout"
+  },
+  {
+    "name": "kamiyo",
+    "github": null,
+    "twitter": "@kamiyoai",
+    "category": "escrow",
+    "description": "Escrow + disputes for agent commerce",
+    "status": "deployed",
+    "chain": "mainnet",
+    "program": "8sUnNU6WBD2SYapCE12S7LwH1b8zWoniytze7ifWwXCM"
+  },
+  {
+    "name": "wunderland-sol",
+    "github": "manicinc/wunderland-sol",
+    "twitter": "@manicinc",
+    "category": "social",
+    "description": "Social network for AI agents with HEXACO personality",
+    "status": "deployed",
+    "chain": "devnet",
+    "hasSkillMd": false,
+    "prSubmitted": true,
+    "program": "ExSiNgfPTSPew6kCqetyNcw8zWMo1hozULkZR1CSEq88"
+  },
+  {
+    "name": "agenttrustauthority",
+    "github": "wscholar/agenttrustauthority",
+    "category": "infrastructure",
+    "description": "Decentralized trust layer for AI agents - SSL certs for AI",
+    "status": "wip",
+    "chain": "mainnet",
+    "hasSkillMd": false,
+    "prSubmitted": true,
+    "issues": 30,
+    "features": [
+      "transparency-logs",
+      "solana-anchoring",
+      "witness-network"
+    ]
+  },
+  {
+    "name": "constable",
+    "github": "0xNoramiya/constable",
+    "category": "analytics",
+    "description": "Recursive token tracking - follow where tokens go",
+    "status": "deployed",
+    "chain": "mainnet",
+    "hasSkillMd": false,
+    "prSubmitted": true,
+    "api": "http://localhost:5000"
+  },
+  {
+    "name": "fred-sol",
+    "github": "rickyautobots/fred-sol",
+    "category": "trading",
+    "description": "Autonomous trading agent with Kelly criterion sizing",
+    "status": "deployed",
+    "chain": "mainnet",
+    "hasSkillMd": true,
+    "features": [
+      "jupiter",
+      "birdeye",
+      "llm-estimation",
+      "backtesting"
+    ]
+  },
+  {
+    "name": "agentmedic",
+    "github": "agentmedic108-del/agentmedic",
+    "category": "infrastructure",
+    "description": "Autonomous AI physician for agents - monitors and heals crashed agents",
+    "status": "wip",
+    "chain": "mainnet",
+    "hasSkillMd": false,
+    "stars": 1,
+    "features": [
+      "health-monitoring",
+      "crash-recovery",
+      "pattern-detection"
+    ]
+  },
+  {
+    "name": "revenant-bridge",
+    "github": "JoeProAI/revenant-bridge",
+    "category": "infrastructure",
+    "description": "Salvage/revive AI agent states with Arweave",
+    "status": "wip",
+    "chain": "devnet",
+    "hasSkillMd": false,
+    "prSubmitted": true
   },
   {
     "name": "paygent",
@@ -69,36 +303,51 @@
     "prSubmitted": true
   },
   {
-    "name": "kamiyo",
-    "github": null,
-    "twitter": "@kamiyoai",
-    "category": "escrow",
-    "description": "Escrow + disputes for agent commerce",
-    "status": "deployed",
-    "chain": "mainnet",
-    "program": "8sUnNU6WBD2SYapCE12S7LwH1b8zWoniytze7ifWwXCM"
-  },
-  {
-    "name": "caverns-and-clawds",
-    "github": "hexroc/caverns-and-clawds",
-    "twitter": "@hexroc",
-    "category": "gaming",
-    "description": "AI-powered dungeon crawler with USDC economy",
-    "status": "deployed",
-    "chain": "mainnet",
-    "hasSkillMd": true,
-    "api": "https://cavernsandclawds.com",
-    "testedBy": "scout"
-  },
-  {
-    "name": "wunderland-sol",
-    "github": "manicinc/wunderland-sol",
-    "twitter": "@manicinc",
+    "name": "clawbook",
+    "github": "metasal1/clawbook",
     "category": "social",
-    "description": "Social network for AI agents with HEXACO personality",
+    "description": "Decentralized social network for AI agents",
     "status": "deployed",
     "chain": "devnet",
-    "program": "ExSiNgfPTSPew6kCqetyNcw8zWMo1hozULkZR1CSEq88"
+    "hasSkillMd": true,
+    "prsSubmitted": 28
+  },
+  {
+    "name": "yuki402",
+    "github": "Yuki402-xyz/yuki402",
+    "category": "payments",
+    "description": "Autonomous payment agent using x402 protocol",
+    "status": "wip",
+    "chain": "mainnet",
+    "hasSkillMd": false,
+    "stars": 1
+  },
+  {
+    "name": "agentalpha",
+    "github": "thatshrimple/agentalpha",
+    "category": "marketplace",
+    "description": "Agent signal marketplace - trade alpha with verifiable reputation",
+    "status": "wip",
+    "chain": "unknown",
+    "hasSkillMd": false
+  },
+  {
+    "name": "autonomous-builder-x",
+    "github": "Pratiikpy/autonomous-builder-x",
+    "category": "meta",
+    "description": "Meta-agent factory - an agent that builds other agents",
+    "status": "wip",
+    "chain": "unknown",
+    "hasSkillMd": false
+  },
+  {
+    "name": "nexus-defi-engine",
+    "github": "Pratiikpy/nexus-defi-engine",
+    "category": "defi",
+    "description": "AI-powered DeFi yield aggregator",
+    "status": "wip",
+    "chain": "unknown",
+    "hasSkillMd": false
   },
   {
     "name": "policyvault-solana",
@@ -109,39 +358,5 @@
     "chain": "devnet",
     "hasSkillMd": false,
     "reviewSubmitted": true
-  },
-  {
-    "name": "autonomous-yield-oracle",
-    "github": "molhe-molhinho/autonomous-yield-oracle",
-    "category": "defi",
-    "description": "Autonomous yield optimization - ACTUALLY TRADES on mainnet",
-    "status": "deployed",
-    "chain": "mainnet",
-    "hasSkillMd": false,
-    "testedBy": "scout",
-    "verifiedOnChain": true,
-    "program": "E7nfxrs1We4muQNAbqnyJwVGFA5WvJPAtvUbt8BoCeRq",
-    "agentWallet": "3mhy5vsxVwTSXCbwjvnov62WTMxuHEZxbRHmP7n2nz4W"
-  },
-  {
-    "name": "wargames-api",
-    "github": "b1rdmania/wargames-api",
-    "category": "infrastructure",
-    "description": "Free unlimited macro intelligence API for agents",
-    "status": "deployed",
-    "chain": "offchain",
-    "hasSkillMd": false,
-    "testedBy": "scout",
-    "api": "https://wargames-api.vercel.app"
-  },
-  {
-    "name": "clawbook",
-    "github": "metasal1/clawbook",
-    "category": "social",
-    "description": "Decentralized social network for AI agents",
-    "status": "deployed",
-    "chain": "devnet",
-    "hasSkillMd": true,
-    "prsSubmitted": 28
   }
 ]
